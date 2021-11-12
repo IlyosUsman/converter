@@ -1,0 +1,78 @@
+.button{
+    width: 950px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  
+
+    &__box-price{
+        margin: 0;
+        font-size: 40px;
+    }
+
+    &__big-box{
+        width: 350px;
+        height: 400px;
+        background-color: #fff;
+        top: 250px;
+        left: 570px;
+        border-radius: 10px;
+    }
+
+    &__big-box-input{
+        width: 295px;
+        height: 50px;
+        font-size: 25px;
+        border: none;
+        border-bottom: 5px solid gray;
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-top: 20px;
+        outline: none;
+    }
+
+    &__big-box-label, &__litle-label{
+        margin-left: 10px;
+        font-size: 18px;
+        position: relative;
+        top: 20px;
+        font-weight: bolder;
+    }
+
+    &__big-box-select{
+        width: 298px;
+        height: 50px;
+        font-size: 18px;
+        border: none;
+        border-bottom:3px solid gray;
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-top: 30px;
+        outline: none;
+    }
+
+    &__litle-button{
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    &__text{
+        margin: 0px;
+        font-size: 25px;
+        margin-top: 30px;
+        padding-left: 5px;
+        color: black;
+    }
+
+
+}

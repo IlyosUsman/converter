@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>JS buttons</title>
+</head>
+<body>
+
+<section class="button">
+    <div class="container">
+        <div class="button__box">
+            <h2 class="button__box-price">
+                Enter the price
+            </h2>
+        </div>
+        <div class="button__big-box" >
+            <form id="form">
+                <label for="" class="button__big-box-label">
+                    Enter the price in UZS
+                </label>
+                <input type="text" class="button__big-box-input" id="input" placeholder="Enter price"> <br>
+                <label for="" class="button__big-box-label">The result</label> <br>
+                <select class="button__big-box-select" id="select">
+                    <option  select disabled>
+                        select price
+                    </option>
+                    <option value="dollar">USD</option>
+                    <option value="euro">EURO</option>
+                    <option value="ruble">RUB</option>
+                </select> <br>
+                <button class="button__litle-button" type="submit">
+                    See the result
+                </button> <br>
+                <label class="button__litle-label" for="">
+                    Result
+                </label>
+                <h1 class="button__text" id="text">
+                </h1>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
